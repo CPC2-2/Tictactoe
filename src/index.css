@@ -84,6 +84,8 @@ body {
 .square.is-selected {
   color: #fff;
   background: #09f;
+  width: 60px;
+  height: 60px;
 }
 
 .winner {
@@ -128,4 +130,10 @@ body {
   place-items: center;
   cursor: pointer;
   font-size: 30px;
+}
+
+
+.turn{
+  display: flex;
+  gap: 20px;
 }
